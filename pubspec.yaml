@@ -1,0 +1,98 @@
+name: doctor_consultation_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 6.0.0+6
+
+environment:
+  sdk: '>=2.2.2 <3.0.0'
+
+#dependency_overrides:2
+#  platform: ^3.1.0
+#
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flutter_icons: ^1.1.0
+  dio: ^3.0.6
+  progress_indicators: ^1.0.0
+  google_maps_flutter: ^0.5.21+12
+  flip_card: ^0.4.4
+  flutter_svg: ^0.20.0-nullsafety.3
+  google_fonts: ^1.1.0
+  provider: ^3.0.0+1
+  flutter_secure_storage: ^3.3.3
+  sms_autofill: ^2.0.1
+  http: ^0.12.0+2
+  flutter_bloc: ^2.1.1
+  kf_drawer: ^1.1.1
+  flutter_spinkit: ^5.1.0
+  animated_text_kit: ^4.2.1
+  animated_theme_switcher: ^2.0.1-nullsafety.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  font_awesome_flutter: ^8.8.1
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/App_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/facebook.png
+    - assets/girls.jpeg
+    - assets/R_logo.jpg
+    - assets/CureScience_PR_Logo.jpg
+    - assets/chatbubble.png
+    - assets/simbolo.png
+    - assets/aloevera.png
+    - assets/ficus.png
+    - assets/CureScience_Logo_1.png
+    - assets/CureScience_PR_Logo.png
+    - assets/whiteplant.png
+    - assets/smallplant.png
+    - assets/bottle.png
+    - assets/doctor_icon_1.png
+    - assets/canchardonnay.png
+    - assets/doctor_icon.png
+    - assets/CureScience_Loading.png
+    - assets/gin.png
+    - assets/8_404Error.png
+    - assets/8_404Error1.png
+    - assets/7_Error.png
+    - assets/Profile Image.png
+    - assets/heavensake.png
+    - assets/mavrose.png
+    - assets/R_logo.gif
+    - assets/calendar.png
+    - assets/map.png
+    - assets/festival.png
+    - assets/food.png
+    - assets/sign_up.gif
+    - assets/Logo_Updated.gif
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat-Regular.ttf
+        - asset: assets/Montserrat-Bold.ttf
+          style: italic
+    - family: Montserrat
+      fonts:
+            - asset: assets/Montserrat-Regular.ttf
+            - asset: assets/Montserrat-ExtraBold.ttf
+              weight: 700
+    - family: CM Sans Serif
+      fonts:
+            - asset: assets/fonts/cm_sans_serif_2012.ttf
