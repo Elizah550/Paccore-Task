@@ -1,5 +1,3 @@
-![]
-
 # Doctor Consultation App
 ## [Doctor App - PavanKumar](Software Developer)
 Packages
